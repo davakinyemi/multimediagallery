@@ -1,0 +1,17 @@
+{
+    "name": "user/multimediagallery",
+    "autoload": {
+        "psr-4": {
+            "user\\Multimediagallery\\": "src/",
+            "config\\": "config/",
+            "app\\Controllers\\": "app/Controllers/",
+            "app\\Services\\": "app/Services/",
+            "app\\Models\\": "app/Models/",
+            "app\\Routes\\": "app/Route/",
+            "src\\Helpers\\": "src/Helpers/",
+            "src\\Middlewares\\": "src/Middlewares/",
+            "src\\Repository\\": "src/Repository/"
+        }
+    },
+    "require": {}
+}

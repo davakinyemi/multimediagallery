@@ -1,0 +1,9 @@
+/_archive/
+/ffmpeg/
+notes.txt
+uploads/images/channels/**
+uploads/images/thumbnails/**
+uploads/images/users/**
+uploads/media/audios/**
+uploads/media/images/**
+uploads/media/videos/**

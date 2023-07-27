@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');*/
+
+:root {
+    /*--blue: #29d9d5;
+    --black: #111111;
+    --white: #ffffff;
+    --light-color: #aaaaaa;
+    --bg-color: #222222;
+    --black-bg: #111111b3;*/
+
+    --black:#191a1e;
+    --white:#fff;
+    --white-weak:#f2f7ff;
+    --bluish-black:#303e65;
+    --grey:#7c8db5;
+    --grey-weak:#e6effb;
+    --greenish-blue:#249090;
+    --greenish-blue-weak:#50a5a5;
+    --orange:#c05d01;
+    --green:#359e22;
+    --red:#9c2c26;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+*:focus {
+    outline: 0;
+}
+
+*::placeholder {
+    color: var(--gray);
+}
+
+body, html {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    /*overflow-x: hidden;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*html::-webkit-scrollbar-track {
+    background: var(--black);
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--blue);
+}
+
+body {
+    background: var(--black);
+}*/
